@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-container {
+  width: 100%;
+  display: inline-flex;
+  background: linear-gradient(to bottom, #5783db 60%, #f1f1f1 40%);
+  border-bottom: 0.5px solid #c1c1c1;
+}
+.navbar-container .brand {
+  background-color: #212529 !important;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  padding: 2px 10px 2px 10px;
+}
+.navbar-container .brand i {
+  font-size: 3.5rem;
+  color: #5783db;
+}
+.navbar-container .divider {
+  display: flex;
+  width: 100%;
+  padding-left: 0.2em;
+  flex-direction: column;
+}
+.navbar-container .divider .line {
+  display: flex;
+  gap: 1.5px;
+}
+.navbar-container .divider .line .right-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-right: 1vw;
+  justify-content: right;
+}
+.navbar-container .divider .line .right-container a, .navbar-container .divider .line .right-container span, .navbar-container .divider .line .right-container button {
+  margin: auto 1em auto 1em;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  font-size: 0.8rem;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+}
+.navbar-container .divider .line .right-container a:hover:not(span), .navbar-container .divider .line .right-container span:hover:not(span), .navbar-container .divider .line .right-container button:hover:not(span) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.navbar-container .divider .line .right-container i {
+  font-size: 0.8rem;
+}
+.navbar-container .divider .line:first-child {
+  flex: 80%;
+  background-color: #5783db;
+}
+.navbar-container .divider .line:last-child {
+  flex: 20%;
+  background-color: #f1f1f1;
+}
+.navbar-container .divider .line .line-btn {
+  outline: 0px;
+  background-color: #5783db;
+  border-right: 0.5px solid #c1c1c1;
+  height: 100%;
+  overflow: hidden;
+  width: 8vw;
+  border-radius: 0px !important;
+}
+.navbar-container .divider .line .line-btn.first {
+  border-left: 0.5px solid #c1c1c1;
+}
+.navbar-container .divider .line.bottom {
+  justify-content: center;
+  font-weight: 500;
+}
+
+.login-central-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  height: 65vh;
+  margin-top: 15vh;
+  border: 0.5px solid #c1c1c1;
+}
+.login-central-wrapper .form {
+  flex: 50%;
+  padding: 10% 1% 5% 1%;
+  text-align: center;
+}
+.login-central-wrapper .form .input-group {
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  padding: 5%;
+}
+.login-central-wrapper .form .input-group label, .login-central-wrapper .form .input-group input {
+  display: block;
+  text-align: left;
+}
+.login-central-wrapper .form .input-group input {
+  border: 0.5px solid #c1c1c1;
+  outline: 0px;
+  border-radius: 5px !important;
+  text-indent: 2%;
+  height: 5vh;
+}
+.login-central-wrapper .form a {
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+  text-decoration: none;
+}
+.login-central-wrapper .form a:hover {
+  text-decoration: underline;
+  color: #0B0080;
+}
+.login-central-wrapper .form button {
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+  width: 90%;
+  background-color: #5783db;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  height: 4vh;
+  border: 0px;
+  outline: 0px;
+}
+.login-central-wrapper .form button:hover {
+  outline: 0.5px solid black;
+  background-color: #4681f4;
+}
+.login-central-wrapper .brand {
+  flex: 50%;
+  border-left: 0.5px solid black;
+  background: blue;
+}/*# sourceMappingURL=App.css.map */
